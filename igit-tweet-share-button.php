@@ -25,7 +25,7 @@ if(is_admin())
 	add_action('wp_head', 'igit_tsb_head');
 	wp_enqueue_script('jquery-form');   
 	add_action('admin_head', 'igit_tsb_action_javascript');
-	update_option('igit_tsb', $igit_tsb);
+
 	add_action('wp_ajax_igit_tsb_save_ajax', 'igit_tsb_action_callback');
 	add_action('admin_menu', 'igit_tsb_plugin_menu'); // for admin menu inside this after clicking on plugin file function will be called.
 }
