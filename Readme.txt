@@ -1,4 +1,4 @@
-=== IGIT New Twitter Tweet Share Button ===
+=== IGIT New Twitter Tweet Button ===
 Contributors: Ankur Gandhi
 Donate link: http://www.hackingethics.com/
 Plugin link: http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/
@@ -45,6 +45,9 @@ http://www.hackingethics.com/blog/contact-me/  <br />
 
 
 == Changelog ==
+= 1.1. =
+
+* Loading image problem solved.<br />
 
 = 1.0. =
 

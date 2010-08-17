@@ -293,7 +293,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
 			</tbody>
 		</table>
 		</div>
-		<div style="float:left;width:250px;" align="center"><input type="submit" name="sb_submit" id="sb_submit" value="Update Options" /></div>&nbsp;&nbsp;&nbsp;&nbsp;<div id="loading_img" style="float:left;width:60px;padding-top:9px;display:none;" align="center"><img src="' . WP_PLUGIN_URL . '/igit-tweet-share-button/images/loader.gif"></div>&nbsp;&nbsp;&nbsp;&nbsp;<div class="flash igit_success" style="float:left;display:none;" id="igit_div_success">
+		<div style="float:left;width:250px;" align="center"><input type="submit" name="sb_submit" id="sb_submit" value="Update Options" /></div>&nbsp;&nbsp;&nbsp;&nbsp;<div id="loading_img" style="float:left;width:60px;padding-top:9px;display:none;" align="center"><img src="' . WP_PLUGIN_URL . '/igit-new-twitter-tweet-share-button-with-counter/images/loader.gif"></div>&nbsp;&nbsp;&nbsp;&nbsp;<div class="flash igit_success" style="float:left;display:none;" id="igit_div_success">
    Options Saved.</div>
    <br>
    <br>
@@ -351,7 +351,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
 </div>';
 }
 function tsb_footer_links() {
-	echo '<span style="font-size:10px;padding-left:10px;">Thank you for using <a href="http://www.hackingethics.com/blog/wordpress-plugins/igit-tweet-share-button/">IGIT Tweet Share Button</a>, a plugin by <a href="http://www.hackingethics.com/">HackingEthics</a></span>';
+	echo '<span style="font-size:10px;padding-left:10px;">Thank you for using <a href="http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/">IGIT Tweet Share Button</a>, a plugin by <a href="http://www.hackingethics.com/">HackingEthics</a></span>';
 }
 function igit_tsb_button_placing($content)
 {

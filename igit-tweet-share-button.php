@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: IGIT New Twitter Tweet Share Button
+Plugin Name: IGIT New Twitter Tweet Button
 Plugin URI: http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/
 Description: Enable Tweet Share Button on every post and individual post.
 Version: 1.0
