@@ -351,7 +351,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
 </div>';
 }
 function tsb_footer_links() {
-	echo '<span style="font-size:10px;padding-left:10px;">Thank you for using <a href="http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/">IGIT Tweet Share Button</a>, a plugin by <a href="http://www.hackingethics.com/">HackingEthics</a></span>';
+	echo '<span style="font-size:10px;padding-left:10px;text-align:center;">Thank you for using <a href="http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/">IGIT Tweet Button</a>, a plugin by <a href="http://www.hackingethics.com/">PHP Freelancer</a></span>';
 }
 function igit_tsb_button_placing($content)
 {

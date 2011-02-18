@@ -4,8 +4,8 @@ Donate link: http://www.hackingethics.com/
 Plugin link: http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/
 Tags: Twitter,Tweet Button, Tweet Share Button, Tweetmeme like Tweet button.
 Requires at least: 2.3
-Tested up to: 2.9.2
-Stable tag: 1.1
+Tested up to: 3.0.5
+Stable tag: 1.2
 
 
 == Description ==
@@ -45,6 +45,10 @@ http://www.hackingethics.com/blog/contact-me/  <br />
 
 
 == Changelog ==
+
+= 1.2. =
+
+* admin jquery problem solved.<br />
 = 1.1. =
 
 * Loading image problem solved.<br />
