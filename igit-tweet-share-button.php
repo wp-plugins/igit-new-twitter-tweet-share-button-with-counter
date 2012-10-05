@@ -3,9 +3,23 @@
 Plugin Name: IGIT New Twitter Tweet Button
 Plugin URI: http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/
 Description: Enable Tweet Share Button on every post and individual post.
-Version: 1.2
+Version: 1.3
 Author: Ankur Gandhi
 Author URI: http://www.hackingethics.com/
+
+License: GNU General Public License (GPL), v3 (or newer)
+
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags:Related posts, related post with images
+
+Copyright (c) 2010 - 2012 Ankur Gandhi. All rights reserved.
+
+ 
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 */
 if (!defined('ABSPATH')) die("Aren't you supposed to come here via WP-Admin?");
 if ( ! defined( 'WP_CONTENT_URL' ) )
@@ -50,9 +64,6 @@ else
 			add_filter('the_content', 'igit_tsb_button_placing');
 		}
 	}
-	if($igit_tsb['igit_tsb_credit'] == "1")
-	{
-		add_action('wp_footer', 'tsb_footer_links');
-	}
+	
 }
 ?>

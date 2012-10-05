@@ -133,10 +133,7 @@ function igit_tsb_action_callback()
   
     $chckd_credit = ($igit_tsb['igit_tsb_credit'] == "1") ? "checked=checked" : "";
     $result       = $result . '
-				<tr valign="top">
-				<th scope="row"><label for="blogname">Give IGIT Plugin Credit?</label></th>
-					<td><input type="checkbox" id="igit_tsb_credit" name="igit_tsb_credit" value="1" ' . $chckd_credit . '/></td>
-				</tr>
+				
 				<tr valign="top">
 				<th scope="row"><label for="blogname">Donate Us :</label></th>
 					<td><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -270,10 +267,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
    $chckd_credit = ($igit_tsb['igit_tsb_credit'] == "1") ? "checked=checked" : "";
    
     echo $message_succ . '
-				<tr valign="top">
-				<th scope="row"><label for="blogname">Give IGIT Plugin Credit?</label></th>
-					<td><input type="checkbox" id="igit_tsb_credit" name="igit_tsb_credit" value="1" ' . $chckd_credit . '/></td>
-				</tr>
+				
 				<tr valign="top">
 				<th scope="row"><label for="blogname">Donate Us :</label></th>
 					<td><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -350,9 +344,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
  </div>
 </div>';
 }
-function tsb_footer_links() {
-	echo '<span style="font-size:10px;padding-left:10px;text-align:center;">Thank you for using <a href="http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/">IGIT Tweet Button</a>, a plugin by <a href="http://www.hackingethics.com/">PHP Freelancer</a></span>';
-}
+
 function igit_tsb_button_placing($content)
 {
 	global $post,$igit_tsb;
