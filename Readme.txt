@@ -11,15 +11,7 @@ License: GNU General Public License (GPL), v3 (or newer)
 
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Tags:Related posts, related post with images
-
-Copyright (c) 2010 - 2012 Ankur Gandhi. All rights reserved.
-
- 
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+The IGIT New Twitter Tweet Share Button Plugin helps Blog administrators to add new tweet button (tweet share button) to all posts on home and individual post, by which any user can share that post on twitter.
 
 == Description ==
 * The IGIT New Twitter Tweet Share Button Plugin helps Blog administrators to add new tweet button (tweet share button) to all posts on home and individual post, by which any user can share that post on twitter.<br />
@@ -58,6 +50,10 @@ http://www.hackingethics.com/blog/contact-me/  <br />
 
 
 == Changelog ==
+
+= 1.3. =
+
+* Credit links removed totally.<br />
 
 = 1.2. =
 
