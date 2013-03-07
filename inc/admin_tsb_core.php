@@ -133,22 +133,10 @@ function igit_tsb_action_callback()
   
     $chckd_credit = ($igit_tsb['igit_tsb_credit'] == "1") ? "checked=checked" : "";
     $result       = $result . '
-				<tr valign="top">
-				<th scope="row"><label for="blogname">Give IGIT Plugin Credit?</label></th>
-					<td><input type="checkbox" id="igit_tsb_credit" name="igit_tsb_credit" value="1" ' . $chckd_credit . '/></td>
-				</tr>
+				
 				<tr valign="top">
 				<th scope="row"><label for="blogname">Donate Us :</label></th>
-					<td><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_donations">
-<input type="hidden" name="business" value="kin.gandhi@yahoo.com">
-<input type="hidden" name="lc" value="US">
-<input type="hidden" name="item_name" value="Hacking Ethics IGIT Related Posts Plugin">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form></td>
+					<td>To donate send me donation on Paypal - kinjugandhi@yahoo.com. Thanks.</td>
 				</tr>
 				<tr valign="top">
 				<th scope="row" colspan="2"></td>
@@ -221,6 +209,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
  	<form id="options_form_tsb" name="options_form_tsb" method="post" action="">
 	<input type="hidden" id="hid_exl_cat" name="hid_exl_cat" value="">
 		<h2>IGIT Tweet Share Button With Counter</h2> 
+		<div style="padding-left: 10px;height: 22px;"><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FHackingEthics&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=422733157774758" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe></div>
 		<div id="tsb_frm_fields">
 		<table class="form-table">
 			<tbody>';
@@ -270,22 +259,10 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
    $chckd_credit = ($igit_tsb['igit_tsb_credit'] == "1") ? "checked=checked" : "";
    
     echo $message_succ . '
-				<tr valign="top">
-				<th scope="row"><label for="blogname">Give IGIT Plugin Credit?</label></th>
-					<td><input type="checkbox" id="igit_tsb_credit" name="igit_tsb_credit" value="1" ' . $chckd_credit . '/></td>
-				</tr>
+				
 				<tr valign="top">
 				<th scope="row"><label for="blogname">Donate Us :</label></th>
-					<td><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_donations">
-<input type="hidden" name="business" value="kin.gandhi@yahoo.com">
-<input type="hidden" name="lc" value="US">
-<input type="hidden" name="item_name" value="Hacking Ethics IGIT Related Posts Plugin">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form></td>
+					<td>To donate send me donation on Paypal - kinjugandhi@yahoo.com. Thanks.</td>
 				</tr>
 				<tr valign="top">
 				<th scope="row" colspan="2"></td>
@@ -305,16 +282,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
 			<div class="postbox"> 
 			  <h3 class="hndle"><span>Donate To Support Plugin:</span></h3> 
 			  <div class="inside" align="center">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_donations">
-<input type="hidden" name="business" value="kin.gandhi@yahoo.com">
-<input type="hidden" name="lc" value="US">
-<input type="hidden" name="item_name" value="Hacking Ethics IGIT Related Posts Plugin">
-<input type="hidden" name="currency_code" value="USD">
-<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+               To donate send me donation on Paypal - kinjugandhi@yahoo.com. Thanks.
               </div> 
 			</div> 
   </div>
@@ -350,9 +318,7 @@ $igit_tsb_cont_style       = ($igit_tsb_new['igit_tsb_cont_style'] == "") ? $igi
  </div>
 </div>';
 }
-function tsb_footer_links() {
-	echo '<span style="font-size:10px;padding-left:10px;text-align:center;">Thank you for using <a href="http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitter-tweet-share-button-with-counter-wordpress-plugin/">IGIT Tweet Button</a>, a plugin by <a href="http://www.hackingethics.com/">PHP Freelancer</a></span>';
-}
+
 function igit_tsb_button_placing($content)
 {
 	global $post,$igit_tsb;

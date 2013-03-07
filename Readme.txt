@@ -5,8 +5,13 @@ Plugin link: http://www.hackingethics.com/blog/wordpress-plugins/igit-new-twitte
 Tags: Twitter,Tweet Button, Tweet Share Button, Tweetmeme like Tweet button.
 Requires at least: 2.3
 Tested up to: 3.0.5
-Stable tag: 1.2
+Stable tag: 1.4
 
+License: GNU General Public License (GPL), v3 (or newer)
+
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+The IGIT New Twitter Tweet Share Button Plugin helps Blog administrators to add new tweet button (tweet share button) to all posts on home and individual post, by which any user can share that post on twitter.
 
 == Description ==
 * The IGIT New Twitter Tweet Share Button Plugin helps Blog administrators to add new tweet button (tweet share button) to all posts on home and individual post, by which any user can share that post on twitter.<br />
@@ -45,6 +50,13 @@ http://www.hackingethics.com/blog/contact-me/  <br />
 
 
 == Changelog ==
+= 1.4. =
+
+* Facebook like added and removed donate button.<br />
+
+= 1.3. =
+
+* Credit links removed totally.<br />
 
 = 1.2. =
 
